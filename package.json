@@ -2,7 +2,7 @@
   "name": "week5",
   "version": "1.0.0",
   "description": "HWnodeWeek",
-  "main": "index.js",
+  "main": "test.js",
   "scripts": {
     "test": "mocha"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/christine-scala/Week5#readme",
   "dependencies": {
+    "locally": "^0.2.1",
     "mocha": "^8.0.1"
   }
 }
