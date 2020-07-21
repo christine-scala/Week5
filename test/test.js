@@ -4,7 +4,7 @@ var triangle = require('../triangle.js');
 
 describe('area of triangle', function (){
     it('supposed to return area of triangle', function (){
-        assert.equal(triangle(10,2));
+        assert.equal(triangle(10,2),10);
 
     });
 });
