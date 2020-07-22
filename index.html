@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li id="one">one</li>
+        <li id="two">two</li>
+        <li id="three">three</li>
+    </ul>
+    <!--Nested list-->
+    <ul id="secondList">
+        <li>first</li>
+        <ul>
+            <li id="inner">uno</li>
+            <li>dos</li>
+        </ul>
+        <li id="last">second</li>
+        <li>third</li>
+    </ul>
+<!--     
+Create an event listener that is listening for the button click. When the event is triggered, have one the elements in the innermost list change it's display to hidden
+-->
+    <button type="button" onclick="document.getElementById('inner').style.display = 'none'">Easy</button>
+    <script src="dom.js"></script>
+</body>
+</html>
