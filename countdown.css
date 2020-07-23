@@ -1,0 +1,45 @@
+*{
+    margin: 10px;
+}
+
+div {
+    position: relative;
+}
+
+#bck {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bathymetry_image_of_the_Hawaiian_archipelago.png/330px-Bathymetry_image_of_the_Hawaiian_archipelago.png");
+    border: solid black 8px;
+    box-shadow: -12px -12px 2px 1px greenyellow;
+    position: absolute;
+    top: 6vw;
+    right: 10vw;
+    width: 25vw;
+    height: 15vw;
+    font-weight: bold;
+    font-size: large;
+}
+
+#grad {
+    background-image: linear-gradient(rgb(90, 221, 57), yellow);
+    text-align: center;
+}
+
+#countDown {
+    color: black;
+    background-color: rgb(100, 221, 77);
+    width: 140px;
+    border: solid 2px black;
+}
+.sizing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    object-fit: fill;
+}
+    
+    /*3columns, 2 rows
+    float:left;
+    width:50%;
+    height:100%;
+    object-fit:cover;
+    */
