@@ -34,12 +34,11 @@ div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50% 50%;
-    object-fit: fill;
 }
-    
-    /*3columns, 2 rows
-    float:left;
-    width:50%;
-    height:100%;
-    object-fit:cover;
-    */
+
+.pic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
