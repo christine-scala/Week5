@@ -37,6 +37,10 @@ div {
     object-fit: fill;
 }
     
+.images{
+    width:50%;
+    height:auto;
+}
     /*3columns, 2 rows
     float:left;
     width:50%;
