@@ -1,7 +1,6 @@
 *{
     margin: 10px;
 }
-
 div {
     position: relative;
 }
@@ -34,9 +33,7 @@ div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50% 50%;
-    object-fit: fill;
-}
-    
+}    
 .images{
     width:50%;
     height:auto;
@@ -47,3 +44,9 @@ div {
     height:100%;
     object-fit:cover;
     */
+.pic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
