@@ -12,7 +12,6 @@ document.getElementById("name").innerhtml = name;
 document.getElementById("email").innerhtml = email;
 }
 
-
-
-console.log(<faker class="name findname"></faker>
+makeCard();
+//console.log(<faker class="name findname"></faker>
 console.log(name);
