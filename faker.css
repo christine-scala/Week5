@@ -1,0 +1,22 @@
+.body{
+    background-color: black;
+}
+
+#heading {
+    text-align: center;
+    color: aliceblue;
+}
+
+#container {
+    text-align: center;
+    padding: 10px;
+    color:black;
+    font-size: larger;
+    border: black;
+    background-color: lightcoral;
+
+}
+
+#card {
+    margin: 0;
+}
