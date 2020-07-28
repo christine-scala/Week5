@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/christine-scala/Week5#readme",
   "dependencies": {
+    "faker": "^4.1.0",
     "locally": "^0.2.1",
     "mocha": "^8.0.1"
   }

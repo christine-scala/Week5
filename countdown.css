@@ -36,10 +36,14 @@ div {
     grid-template-rows: 50% 50%;
     margin: 0px;
     grid-gap: 0px;
+    align-items: center;
+    height: 100vw;
+    width: 100vw;
 }    
 .images{
     width:50%;
     height:auto;
+    max-width: 100%;
     
 }
     /*3columns, 2 rows
