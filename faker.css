@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 .body{
     background-color: black;
 }
@@ -14,6 +18,10 @@
     font-size: larger;
     border: black;
     background-color: lightcoral;
+    width: 50%;
+    position: relative;
+    left: 25vw;
+    
 
 }
 
